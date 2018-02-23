@@ -1,0 +1,26 @@
+{
+  "name": "datasaur-searchable",
+  "version": "3.0.0",
+  "description": "Data source module to find a data row based on a unique single- or multi-column ID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fin-hypergrid/datasaur-searchable.git"
+  },
+  "author": "Jonathan Eiten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fin-hypergrid/datasaur-searchable/issues"
+  },
+  "homepage": "https://github.com/fin-hypergrid/datasaur-searchable#readme",
+  "devDependencies": {
+    "fin-hypergrid-client-module-maker": "fin-hypergrid/client-module-maker#2.3.0",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "datasaur-base": "github:fin-hypergrid/datasaur-base#3.0.0"
+  }
+}
